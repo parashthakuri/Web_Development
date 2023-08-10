@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/header.css}">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/footer.css}">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/aboutus.css}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body >
+
+<header th:replace="~{/fragments/header.html}"></header>
+<main style="background-color: #65CAD1">
+  <div class="main-div" >
+    <h2 class="h2-title">About us</h2>
+    <p class="paragraph"> Welcome to sneakers bazar, where style meets comfort and every step tells a story! With a relentless passion for footwear, we have curated a diverse and trendsetting collection that caters to all tastes and occasions. Our journey started with the belief that shoes are more than just accessories; they're an expression of one's personality and a reflection of individuality. At sneakers bazar, we are dedicated to providing you with not just a pair of shoes, but a gateway to self-expression and confidence. Our team of dedicated fashion enthusiasts ensures that each shoe is selected for its quality, comfort, and unique flair. Whether you're seeking the perfect fit for a formal event or a casual pair for everyday adventures, we're here to guide you through a world of possibilities. Step into  and let us walk with you as you make a statement, one step at a time..</p>
+  </div>
+</main>
+
+<footer th:replace="~{/fragments/footer.html}"></footer>
+</body>
+</html>
